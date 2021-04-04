@@ -1,0 +1,107 @@
+		.ten-congthuc h4{
+			color:#000000;
+			font-weight:bold;
+
+		}
+		.mota-congthuc{
+			margin-top:50px;
+		}
+		.img-congthuc{
+			margin-top:20px;
+		}
+		hr{
+			width: 50%;	
+		}
+		.binh-luan{
+			margin-top: 50px;
+		}
+		.binh-luan h4{
+			font-weight:bold;
+		}
+		.binh-luan textarea{
+			background-color:#f5f5f5;
+			color : #000000;
+			border-style: none;
+		}
+		.binh-luan textarea::placeholder{
+			color:#81c0f1;
+		}
+		
+		.binh-luan button{
+			display: inline-block;
+			background-color:#288ad6;
+			color:#ffffff;
+			border-style: solid; 
+			border-color:#ffffff;
+			border-radius: 7px;
+			width: 75px;
+			height: 35px;
+		}
+		button.re_btn{
+			display: inline-block;
+			background-color:#288ad6;
+			color:#ffffff;
+			border-style: solid; 
+			border-color:#ffffff;
+			border-radius: 7px;
+			width: 65px;
+			height: 30px;
+		}
+		.binhluan{
+			margin-top: 40px;s
+		}
+		.binhluan-name{
+			font-weight:bold;
+		}
+		.binhluan-detail{
+			margin-top: 10px;
+		}
+		.binhluan-ngay{
+			margin-left: 30px;
+		}
+		.binhluan-btn-down{
+			margin-left: 10px;
+		}
+		.traloi{
+			margin-left: 40px;
+			margin-top: 20px;
+		}
+	/* đánh giá binh luan */
+		.danh-gia h4{
+			font-weight: bold;
+		}
+	/*	div.stars {
+		  width: 270px;
+		  display: inline-block;
+		}
+		 
+		input.star { display: none }
+		 
+		label.star {
+		  float: right;
+		  padding: 10px;
+		  font-size: 36px;
+		  transition: all .2s;
+		  color:#dcdcdc;
+		}
+		 
+		input.star:checked ~ label.star:before {
+		  content: '\f005';
+		  color: #FD4;
+		  transition: all .25s;
+		}
+		 
+		input.star-5:checked ~ label.star:before {
+		  color: #FE7;
+		}
+		 
+		 
+		label.star:hover ~ label.star:before, label.star:hover { 
+			color: #fe7;
+			content: '\f005';
+		 }
+		 
+		label.star:before {
+		  content: '\f006';
+		  font-family: FontAwesome;
+		}*/

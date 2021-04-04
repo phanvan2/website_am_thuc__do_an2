@@ -1,0 +1,123 @@
+		.chitiet-img-sach{
+			display: flex;
+  			align-items: center;
+  			justify-content: center;
+  			perspective: 600px;
+		}
+
+		@keyframes initAnimation {
+ 			 0% {transform: rotateY(-25deg);}
+  			100% {transform: rotateY(0deg);}
+		}
+
+		.chitiet-img-sach {
+			float:left;
+			margin-left: 100px;
+		  	width: 300px;
+			height: 450px;
+			position: relative;
+			transform-style: preserve-3d;
+			transform: rotateY(0deg);
+			transition: 1s ease;
+			animation: 1s ease 0s 1 initAnimation;
+		}
+		.chitiet-img-sach p{
+			margin-top:250px;
+		}
+		.chitiet-img-sach:hover , .chitiet-img-sach:focus  {
+			transform: rotateY(-25deg);
+		}
+
+		.chitiet-img-sach > :first-child {
+			position: absolute;
+			top: 0;
+		  	left: 0;
+		  	background-color: red;
+		  	width: 350px;
+		  	height: 400px;
+		  	transform: translateZ(25px);
+		  	background-color: #01060f;
+		  	border-radius: 0 2px 2px 0;
+		  	box-shadow: 5px 5px 20px #666;
+		}
+
+		.chitiet-img-sach::before {
+		  position: absolute;
+		  content: ' ';
+		  background-color: blue;
+		  left: 0;
+		  top: 4px;
+		  width: 48px;
+		  height:  442px;
+		  transform: translateX(271px) rotateY(90deg);
+		  background: linear-gradient(90deg, 
+		    #fff 0%,
+		    #f9f9f9 5%,
+		    #fff 10%,
+		    #f9f9f9 15%,
+		    #fff 20%,
+		    #f9f9f9 25%,
+		    #fff 30%,
+		    #f9f9f9 35%,
+		    #fff 40%,
+		    #f9f9f9 45%,
+		    #fff 50%,
+		    #f9f9f9 55%,
+		    #fff 60%,
+		    #f9f9f9 65%,
+		    #fff 70%,
+		    #f9f9f9 75%,
+		    #fff 80%,
+		    #f9f9f9 85%,
+		    #fff 90%,
+		    #f9f9f9 95%,
+		    #fff 100%
+		    );
+		}
+
+		.chitiet-img-sach::after {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  content: ' ';
+		  width: 350px;
+		  height: 400px;
+		  transform: translateZ(-25px);
+		  background-color: #01060f;
+		  border-radius: 0 2px 2px 0;
+		  box-shadow: -10px 0 50px 10px #666;
+		}
+		.detail-img-sach{
+			width: 350px;
+			height: 400px;
+			 float:right;
+			 margin-right: 100px;
+			border-style:solid;
+			border-color:#dcdcdc;
+			border-width: 8px;
+			border-radius:5px;
+		}
+		.detail-img-sach h4{
+			font-weight:bold;
+		}
+		.detail-img-sach .chitiet-gia-sach{
+			display: inline-block;
+
+		}
+		.detail-img-sach p, .detail-img-sach p button ,.detail-img-sach h3{
+			margin-left: 10px;
+		}
+		.detail-img-sach p button{
+			margin-top:10px;
+			background-color: #288ad6;
+			color:#ffffff;
+			border-radius: 5px;
+			width: 140px;
+			height:40px;
+			display:inline-block;
+			border-color:#000000;
+		}
+		.chitiet-gioi_thieu{
+			font-size: 18px;
+			color:#66645c;
+		}

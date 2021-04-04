@@ -1,0 +1,40 @@
+.card-img-danhmuc{
+	border-style: solid; 
+	border-color:#dcdcdc;
+	border-width: 1.5px;
+	border-radius: 10px;
+}
+.card-detail-danhmuc p{
+	margin-top: 10px; 
+	color: #000000;
+	text-decoration: none; 
+}
+.card-danhmuc{
+	transition-duration: 0.5s; 
+	width: 50%;
+	height: 50%;
+}
+.card-danhmuc:hover{
+	transform: translateY(-5px);
+}
+hr{
+	height: 1px; 
+	background-color: #000000; 
+	float:left;
+}
+	.carddanhmuc{
+   	width: 18%; 
+    height: 18%;
+    margin-left: 5px; 
+  
+   	position: relative;
+   	display: inline-block;
+	}
+input[type="submit"]{
+	width: 7%;
+	font-size: 18px;
+	background-color:#28da00;
+	color:#ffffff;
+	border-style: none; 
+	border-radius:5px;
+}

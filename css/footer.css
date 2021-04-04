@@ -1,0 +1,40 @@
+.detail-footer{
+	color:#000000;
+	font-weight: bold;
+	transition-duration: 0.5s;
+}
+.detail-footer:hover{
+	transform:translateX(15px );
+}
+.detail-footer a{
+	color:#000000;
+	font-weight: bold;
+	text-decoration: none; 
+
+}
+.nav-link{
+	margin-left: 5px;
+	color:#000000;
+	font-weight: bold;
+}
+.title-footer{
+	
+}
+#top-detail-footer{
+	margin-top: 30px;
+}
+.icon-MXH-footer{
+	color:#000000;
+	font-size: 30px;
+	transition-duration: 0.5s;
+}
+.icon-MXH-footer:hover{
+	transform: scale(1.5 , 1.5); 
+}
+footer{
+	box-shadow: -5px -5px 5px gray;
+	background-color:#ffffff;
+}
+a.detail-footer{
+	text-decoration: none ; 
+}

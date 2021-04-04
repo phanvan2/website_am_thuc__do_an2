@@ -1,0 +1,96 @@
+body{
+			background-color: #ffffff;
+		}
+		.container-fluid{
+			
+		}
+		.Sign_in{
+			margin-top: 100px;
+			width: 100%;
+			height: 500px;
+			background-color: #ffffff;
+			border-style: solid;
+			border-color: #dcdcdc;
+			border-radius: 15px;
+		}
+		.Sign-img{
+			width: 100%;
+			height: 200px;
+			  position: relative;
+			  z-index: 1;
+			  flex-wrap: wrap;
+			  flex-direction: column;
+			  background-repeat: no-repeat;
+			  background-size: cover;
+			  background-position: center;
+			  border-top-left-radius: 15px;
+			  border-top-right-radius: 15px; 
+			  padding: 70px 15px 74px 15px;
+		}
+		.Sign-img::before {
+			 border-top-left-radius: 15px;
+			  border-top-right-radius: 15px; 
+			width: 100%;
+			height: 100%;
+		 	content: "";
+		 	display: block;
+		 	position: absolute;
+		 	z-index: -1;	
+		 
+		 	top: 0;
+		 	left: 0;
+		 	background-color: rgba(54,84,99,0.7);
+		}
+		.Sign-img p{
+			color:#ffffff;
+			font-weight: bold;
+			font-size: 40px;
+			font-family: sans-serif;
+		}
+		.Sign-input{
+			margin-top:30px;
+
+		}
+		.Sign-input label{
+			margin-top: 20px;
+			width: 100px;
+			color:#868e9b;
+			font-size: 15px;
+
+		}
+		.Sign-input input[type = "text"]{
+			width: 300px;
+			height: 30px;
+			border-style: none; 
+			border-bottom-style: solid; 
+			border-bottom-color: #dcdcdc; 
+			border-bottom-width: 1.2px; 
+		}
+		.Sign-input input[type = "password"]{
+			width: 300px;
+			height: 30px;
+			border-style: none; 
+			border-bottom-style: solid; 
+			border-bottom-color: #dcdcdc; 
+			border-bottom-width: 1.2px; 
+		}
+		.Sign-input input[type = "text"]:click{
+			border-style: none; 
+		}
+		.Sign-in-btn input[type = "submit"]{
+			margin-top: 30px;
+			width: 120px; 
+			height: 40px;
+			display: block;
+			background-color: #57b846;
+			border-radius: 40px;
+			border-style: solid;
+			border-color:#ffffff;
+			color:#ffffff;
+		}
+		
+		.Sign-input a{
+			display: inline-block;
+			color:#868e9b;
+			text-decoration-line: none; 
+		}

@@ -1,0 +1,60 @@
+.container_angihomnay{
+	width: 100%;
+	background-repeat: no-repeat;
+	height: 750px ;
+}
+.card-sp{
+	margin-top: 30px;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: #dcdcdc;
+}
+.card-sp:hover{
+	box-shadow: 0px 20px 50px #D9DBDF;
+}
+
+.card-img-sp{
+
+}
+.card-img-sp label{
+	display: block;
+	position: absolute;
+	color:#ffffff;
+	margin-left:10px;
+	margin-top:5px;
+			
+}
+.card-img-sp label:hover{
+	color: #4d90fe; 
+}
+.card-img-sp input[type="checkbox"]:checked ~ label{
+	color: #4d90fe; 
+}
+.card-detail-sp  .card-name-sp{
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	height: 30px;
+
+		}
+.card-detail-sp {
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 180px;
+}
+.card-footer-sp button{
+			/*background-color: #4d90fe;*/
+	background-color: #3EDD84;
+	color:#ffffff;
+	border-style: solid;
+	border-color: #ffffff;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	width: 25%;
+}
+.card-footer-sp label{
+	float: right;
+	margin-right:10px;	
+}
+		
+	
